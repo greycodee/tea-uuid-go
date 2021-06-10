@@ -19,4 +19,4 @@ jobs:
         go-version: 1.15
 
     - name: Build
-      run: echo ${{ TEST_TOKEN.DING_SECRETS }}
+      run: echo $DING_SECRETS
