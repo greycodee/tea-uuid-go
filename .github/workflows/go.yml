@@ -19,4 +19,4 @@ jobs:
         go-version: 1.15
 
     - name: Build
-      run: echo $HIUHUI_TOKEN
+      run: echo ${{ secrets.HIUHUI_TOKEN }}
