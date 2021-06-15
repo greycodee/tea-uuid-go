@@ -1,6 +1,8 @@
 name: webHooks
 
-on: repository_dispatch
+on: 
+  repository_dispatch:
+    type: seo
 
 jobs:
   run:
