@@ -20,4 +20,6 @@ jobs:
         echo ${{ github.issues.repo }}
         echo ${{ github.issues.body }}
         echo ${{ github.issues.title }}
+        echo ${{ GITHUB_EVENT_NAME }}
+        echo $PATH
         
