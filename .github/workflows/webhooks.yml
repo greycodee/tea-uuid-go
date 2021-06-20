@@ -17,4 +17,5 @@ jobs:
       run: |
         echo My name is P3TERX.
         echo Hello World!
-        echo ${{ github.event.body }}
+        echo ${{ github.event.direction }}
+        echo ${{ github.event }}
