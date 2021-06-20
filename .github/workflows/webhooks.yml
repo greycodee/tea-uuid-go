@@ -17,9 +17,9 @@ jobs:
       run: |
         echo My name is P3TERX.
         echo Hello World!
-        echo ${{ github.issues.repo }}
-        echo ${{ github.issues.body }}
-        echo ${{ github.issues.title }}
-        echo ${{ GITHUB.EVENT.NAME }}
+        echo ${{ github.event.repo }}
+        echo ${{ github.event.body }}
+        echo ${{ github.event.title }}
+        echo ${{ github.event.name }}
         echo $PATH
         
